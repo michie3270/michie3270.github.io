@@ -109,6 +109,10 @@ div #reltab{
   .project-tagline {
     font-size: 1rem; } }
 
+#noe {
+  height: 200px;
+}
+
 #profilepic{
   border-radius: 20%;
   -moz-border-radius:20%; 
