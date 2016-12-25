@@ -109,17 +109,13 @@ div #reltab{
   .project-tagline {
     font-size: 1rem; } }
 
-#profile_pic{
+#profilepic{
   border-radius: 20%;
   -moz-border-radius:20%; 
   -webkit-border-radius: 20%;
   height:200px;
 }
 
-div .profile_pic{ 
-    border-radius: 20%;
-    -webkit-border-radius: 24%;
-}
 
 .portfolio {
   height: 2000px;
