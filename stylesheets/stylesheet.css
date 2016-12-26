@@ -28,6 +28,10 @@ div {
   width: 100%;
 }
 
+#bannerpic{
+  width:100%;
+}
+
 .projectpic{
   max-width: 400px;
 }
