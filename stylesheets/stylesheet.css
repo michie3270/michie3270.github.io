@@ -7,10 +7,19 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  color: #FFFFFF;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-transform: uppercase;
+    color: #FFFFFF; }
+    a:link, a:visited {
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+button {
+  color: blue;
+}
 
 ul{
   width:100%;
@@ -22,7 +31,26 @@ div {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71;
+  text-align: center; 
+}
+
+.about_me,.portfolio,.relCourse{
+  padding-bottom: 50px;
+}
+
+.courseTable{
+  text-align: center;
+}
+
+.title{
+  padding-top:50px; 
+  padding-bottom: 25px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
 
 .banner{
   width: 100%;
@@ -40,15 +68,30 @@ div {
   top: 0;
   z-index: 1000;
   position: fixed;
+  padding: 10px;
   width: 100%;
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
   border-radius: 0.3rem;
-  text-align: right;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-image: linear-gradient(120deg, #155799, #159957); 
+}
+
+.rightNav {
+  float: right;
+
+}
+
+.leftNav {
+  float: left;
+  padding-left: 0px;
+}
+
+.rightNav a{
+  padding-left: 20px;
+}
 
 li{
   display: inline-block;
@@ -85,22 +128,40 @@ li:hover {
   text-align: center;
 }
 .portfolio {
-  padding: 0;
   width:100%;
   margin: 1rem 0;
   background-color: #eff0f1;
 }
 
+.portfolio img{
+  height: 188px;
+}
+
+@media screen and (max-width: 480px){
+
+  .leftNav{
+    padding: 2px;
+    margin-left: -40px;
+  }
+  .rightNav a{
+    padding-left: 2px;
+  }
+}
 
 .site-footer {
-  padding-top: 2rem;
+  padding-top:2rem;
+  padding-bottom: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 0.3rem;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); 
+  border-top: solid 1px #eff0f1; 
+}
 
-.site-footer-owner {
-  display: block;
-  font-weight: bold; }
-
+.footer-text{
+    color: #FFFFFF;
+}
 .site-footer-credits {
   color: #819198; }
 

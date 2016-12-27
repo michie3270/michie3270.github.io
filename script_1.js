@@ -20,9 +20,10 @@ $("#reltab").click(function() {
     }, 2000);
 });
 
-$("#contacttab").click(function() {
+
+$("#home").click(function() {
 
     $('html, body').animate({
-        scrollTop: $(".site-footer").offset().top
+        scrollTop: $(".pagetop").offset().top
     }, 2000);
 });

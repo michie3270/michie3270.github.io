@@ -2,8 +2,10 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Michie3270.GitHub.io by michie3270</title>
+    <title>Takman Lee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio for Takman Lee.">
+    <meta name="keywords" content="Takman Lee, Michelle Lee, Takman Michelle Lee, takman lee, michelle lee">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -16,80 +18,105 @@
  
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
+    <!--icon-->
+    <link rel="icon" type="image/x-icon" href="assets/sitelogo.png" />
 
       </head>
 
   <body>
 
-    <section>
-      <div class="row">
+
+
+    <nav  class="nav_bar">
+      <ul>
+        <div class="leftNav">
+         <a href="#home" id="home">Takman L.</a>
+        </div>
+        <div class="rightNav">
+         <a href="#about" id="abouttab">About</a>
+         <a href="#portfolio" id="portfotab">Portfolio</a>
+         <a href="#relevantcourse" id="reltab">Coursework</a>
+        </div>
+     </ul>
+    </nav>
+
+    <section class="pagetop">
+      <div>
       <img src="assets/jumbotron.png" alt="jumbotron" id="bannerpic" style="max-width:100%"/>
     </div>
     </section>
 
-    <nav  class="nav_bar">
-      <ul>
-         <li id="abouttab">About</a></li>
-         <li id="portfotab">Portfolio</a></li>
-         <li id="reltab">Relevant Coursework</li>
-         <li id="contacttab">Contact</a></li>
-     </ul>
-    </nav>
-
-
     <section class="main-content">
 
       <section class="about_me">
+        <div class="container-fluid">
         <div class="title">About Me</div>
         <div class="row">
-
-        <div id="profilepicdiv" class="col-sm-4">
-          <img src="assets/profilepic.jpg" alt="Profile_Picture" id="profilepic"/>
+        <div id="profilepicdiv" class="col-lg-4">
+            <img src="assets/sitelogo.png" alt="Profile_Picture" id="profilepic"/>
+          <div> social media
+          <a href="https://www.linkedin.com/in/michelle-lee-a05a32aa"><img src="assets/linkedin.png" alt="linkedin" style="max-height:30px;max-width:30px;"/></a>
         </div>
-        <div class="col-sm-7">
-        <p><br>Hi, I'm a junior at Cornell University, majoring in Information Science, Systems, and Technology, and minoring in Business. At Cornell, I am the co-President of Welcome Weekend Committee, the Web-master of Cornell Economic Society, and the Social Chair for Society of Women Engineers Cornell Chapter.</p>
       </div>
-
+        <div class="col-lg-7">
+        <p><br>Hi, I'm a junior at Cornell University, majoring in Information Science, Systems, and Technology. I am especially interested in web-development. I continue to take classes that would provide me with the skills needed for a successful full-stack developer. Besides programming, I also have a keen interest in business and am doing a business minor. At Cornell, I am the co-President of Welcome Weekend Committee, the Web-master of Cornell Economic Society, and the Social Chair for Society of Women Engineers</p>
+      </div>
     </div>
+    </div>
+  </section>
 
       <section class="portfolio">
+        <div class="container-fluid">
         <div class="title">Portfolio</div>
-          Startup - Wononi website design
-          <p>Click on the image to enlarge it.</p>
-          <p>Notice that we have added a "back button" in the top right corner.</p>
-          <a href="www.wononi.com" data-rel="popup" data-position-to="window">
-          <img class="projectpic" src="assets/wononi.png" alt="Wononi"></a>
-          <div class="details">This is jdlsafj</div>
+        <div class="row">
+        <div class="col-lg-4">
+          <hr>
+           <b>Startup Wononi Website Design</b>
+           <br>
+          <img class="projectpic" src="assets/wononi.png" alt="Wononi">
+          <p>The Wononi company website was built using the Wordpress framework. The goal of the design was to maximize the site's aesthetic appeal so as to attract more customers. Besides the web design, I helped the business owner understand how to use the CMS to monitor their business.</p>
+           <a href="https://www.wononi.com" data-rel="popup" data-position-to="window">
+          <button class="seemore">See More</button>
+         </a>
         </div>
-          </div>
-
-        <div id="1998">CS 1998 - Intro to product design
-          <a href="https://medium.com/@michellelee_16549/google-calendar-concept-sticky-on-top-email-notification-and-double-confirmation-for-dismissal-f1b951013308#.3jsc1vdzu">
-          <img class="projectpic" src="assets/introtodpd.png" alt="Introduction to Digital Product Design Project"></a>
-        </div>
-
-
-        <div id="2300">INFO 2300 - Web dev project
+        <hr>
+        <div class="col-lg-4">
+          <b>Digital Product Design Project</b>
+          <br>
+          <img class="projectpic" src="assets/introtodpd.png" alt="Introduction to Digital Product Design Project">
+          <p>This is a semester long project focusing on UX research and UI improvements exploration. The Project explores the problem in which users of scheduling app still misses events.</p>
+          <a href="https://medium.com/@michellelee_16549/google-calendar-concept-sticky-on-top-email-notification-and-double-confirmation-for-dismissal-f1b951013308#.3jsc1vdzu"><button class="seemore">See More</button>
+          </a>  
+        <hr>
+      </div>
+        <div class="col-lg-4">
+          <b>HAVEN Student Organization Wesbite</b>
+          <br>
           <img class="projectpic" src="assets/haven.png" alt="INFO 2300 Final Group Project">
-        </div>
-
+          <p>This is my group project for my CS/INFO2300: Intermediate Design and Programming for the Web. It is a website for Haven, a student organization at Cornell University. Features of the website include: admin/members login, admin posting, members commenting, event calendar...</p>      
+      </div>
+    </div>
       </section>
 
       <section class="relCourse">
-        <div class="title">Relevant Course Work</div>
-        <div>
-          <ul>
-            <li>HADM4890 - internet law</li>
-            <li>AEM2240 - Finance</li>
-            <li>INFO2230 - Web Dev</li>
-            <li>CS2110 - Obect-oriented programming</li>
-            <li>CS1112 - Matlab</li>
-          </ul>
+        <div class="title">Relevant Coursework</div>
+        <div class="courseTable">
+          <table align="center">
+            <tr><th>INFO4240 - Designing for Social Impacts</th></tr>
+            <tr><th>INFO2230 - Intermediate Design and Programming for the Web</th></tr>
+            <tr><th>CS2110 - Object Oriented Programming and Data Structure</th></tr>
+            <tr><th>CS1998 - Introduction to Digital Product Design</th></tr>
+            <tr><th>CS1112 - Matlab</th></tr>
+            <tr><th>HADM4890 - internet law</th></tr>
+            <tr><th>HADM2230 - Financial Accounting</th></tr>
+            <tr><th>AEM2241 - Finance</th></tr>
+            <tr><th>ECON1110 - Introduction to Economics</th></tr> 
+          </table>
         </div>
       </section>
 
       <footer class="site-footer">
-        <div></div>
+        <div class="footer-text">Copyright © Takman Lee 2016 - All Rights Reserved</div>
       </footer>
 
     </section>
