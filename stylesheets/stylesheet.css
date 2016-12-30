@@ -61,7 +61,7 @@ div {
 }
 
 .projectpic{
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .nav_bar {
@@ -128,7 +128,7 @@ li:hover {
   text-align: center;
 }
 .portfolio {
-  width:100%;
+  max-width:100%;
   margin: 1rem 0;
   background-color: #eff0f1;
 }
