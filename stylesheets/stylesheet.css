@@ -148,6 +148,15 @@ li:hover {
   }
 }
 
+
+@media screen and (max-width: 480px){
+
+    img{
+      max-width: 100%
+    }
+
+}
+
 .site-footer {
   padding-top:2rem;
   padding-bottom: 2rem;
