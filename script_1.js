@@ -3,21 +3,21 @@ $("#abouttab").click(function() {
 
     $('html, body').animate({
         scrollTop: $(".about_me").offset().top
-    }, 2000);
+    }, 800);
 });
 
 $("#portfotab").click(function() {
 
     $('html, body').animate({
         scrollTop: $(".portfolio").offset().top
-    }, 2000);
+    }, 800);
 });
 
 $("#reltab").click(function() {
 
     $('html, body').animate({
         scrollTop: $(".relCourse").offset().top
-    }, 2000);
+    }, 800);
 });
 
 
@@ -25,5 +25,5 @@ $("#home").click(function() {
 
     $('html, body').animate({
         scrollTop: $(".pagetop").offset().top
-    }, 2000);
+    }, 800);
 });
