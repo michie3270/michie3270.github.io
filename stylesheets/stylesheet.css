@@ -47,7 +47,7 @@ ul{
   width:100%;
 }
 
-div {
+div, .projectHover b, .projectHover p{
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -212,3 +212,22 @@ li:hover {
 .container-fluid {
   margin-top:0px;
 }
+
+.loginBox{
+  z-index: 3000;
+  left: -285px;  
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  background-color: white;
+}
+
+.loginBox li{
+  display: block;
+}
+
+.loginBox a{
+  color: black;
+}
+
+
