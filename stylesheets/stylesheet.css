@@ -11,6 +11,8 @@ body {
 .headerDiv{
   padding-top:27px; 
   padding-bottom:27px;
+  padding-left:5%;
+  padding-right:5%;
 }
 .headerDivText{
   font-size: 24px;
